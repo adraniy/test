@@ -3,6 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("12311");
+        A a = new A();
+        B b = new B();
+        C c = new C();
+        System.out.println("A = " + a);        
+        System.out.println("B = " + b);
+        System.out.println("C = " + c);
     }
 }
