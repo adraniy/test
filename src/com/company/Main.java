@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	System.out.println("12311");
+        A a = new A();
+        System.out.println("A = " + a);
     }
 }
