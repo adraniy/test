@@ -1,5 +1,3 @@
-package com.company;
-
 /**
  * test class B
  */
