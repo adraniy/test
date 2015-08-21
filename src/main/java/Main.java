@@ -11,7 +11,7 @@ public class Main {
         A a = new A();
         logger.debug("A instance created" + a);
         B b = new B();
-        logger.debug("B instance createdqwe" + b);
+        logger.debug("B instance createdqwew" + b);
         C c = new C();
         logger.debug("C instance created" + c);
 
