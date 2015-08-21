@@ -12,7 +12,7 @@ public class Main {
         B b = new B();
         logger.debug("B instance created" + b);
         C c = new C();
-        logger.debug("C instance created" +c);
+        logger.debug("C instance created " +c);
 
       /*  System.out.println("A = " + a);
         System.out.println("B = " + b);
