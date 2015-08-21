@@ -1,8 +1,8 @@
 /**
  * test class B
  */
-public class B {
-    int id;
+class B {
+    private int id;
 
     public int getId() {
         return id;
@@ -12,8 +12,4 @@ public class B {
         this.id = id;
     }
 
-    @Override
-    public String toString() {
-        return super.toString();
-    }
 }

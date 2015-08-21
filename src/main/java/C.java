@@ -1,5 +1,5 @@
 /**
  * test class C
  */
-public class C {
+class C {
 }

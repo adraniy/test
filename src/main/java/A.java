@@ -1,9 +1,12 @@
+import org.apache.log4j.Logger;
+
 /**
  * test A class
  */
-public class A {
-    int id;
-    String name;
+ class A {
+    private static final Logger logger = Logger.getLogger(A.class);
+    private int id;
+    private String name;
 
     public String getName() {
         return name;
@@ -20,6 +23,14 @@ public class A {
     public void setId(int id) {
         this.id = id;
     }
+
+
+    public int getSId() {
+        logger.debug("getSId");
+        if (this.id == 0) return 999;
+        else return id;
+    }
+
     @Override
     public String toString() {
         return "name1122211: " + name;
