@@ -33,7 +33,7 @@ public class ATest {
         assertEquals(3, a.getSId());
         a.setId(5);
         assertEquals(5, a.getSId());
-        logger.debug("asd");
+        logger.debug("as111d");
 
     }
 
