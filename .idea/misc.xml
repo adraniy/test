@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+    <entry_points version="2.0">
+      <entry_point TYPE="method" FQNAME="A java.lang.String getName()" />
+      <entry_point TYPE="method" FQNAME="A void setName(java.lang.String name)" />
+      <entry_point TYPE="method" FQNAME="A int getId()" />
+      <entry_point TYPE="method" FQNAME="B void setId(int id)" />
+      <entry_point TYPE="method" FQNAME="B int getId()" />
+    </entry_points>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />

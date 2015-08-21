@@ -1,6 +1,7 @@
 
 import org.apache.log4j.*;
 
+@SuppressWarnings("WeakerAccess")
 public class Main {
 
     private   static final Logger logger = Logger.getLogger(Main.class);
@@ -10,9 +11,9 @@ public class Main {
         A a = new A();
         logger.debug("A instance created" + a);
         B b = new B();
-        logger.debug("B instance created" + b);
+        logger.debug("B instance createdqwe" + b);
         C c = new C();
-        logger.debug("C instance created" +c);
+        logger.debug("C instance created" + c);
 
       /*  System.out.println("A = " + a);
         System.out.println("B = " + b);
